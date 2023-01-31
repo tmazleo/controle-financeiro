@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Form from "./components/Form/index.js";
+import H3 from "./components/H3/index.js";
 import Header from "./components/Header/index.js";
 import Resume from "./components/Resume/index.js";
 import GlobalStyle from "./styles/GlobalStyle.js";
@@ -48,6 +49,7 @@ const App = () => {
             <Form handleAdd={handleAdd}
                 transactionsList={transactionsList}
                 setTransactionsList={setTransactionsList} />
+            <H3 />
             <GlobalStyle />
         </>
 
